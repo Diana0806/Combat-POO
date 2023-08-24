@@ -1,0 +1,165 @@
+@import 'bootstrap';
+
+
+.navbar {
+    background-color: transparent;
+}
+
+.header {
+    background-image: url(../images/bkg-hero-header.jpg);
+    margin-top: -60px;
+    padding: 12rem;
+
+    .btn {
+        border-radius: unset;
+    }
+}
+
+span.dot {
+    color: yellow;
+    vertical-align: bottom;
+}
+
+.testimonials {
+    /*border-color: violet;*/
+    background-image: url(../images/bkg-testimonial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+
+    position: relative;
+    left: 0;
+    top: 0;
+
+    p {
+        width: 800px;
+        background-color: #6A4D8A;
+        margin: 2rem auto;
+        padding: 2rem;
+
+    }
+}
+
+.carousel-indicators {
+
+    position: relative;
+
+}
+
+.carousel-indicators {
+    button {
+        width: 15px!important;
+
+        height: 15px!important;
+        border-radius: 50%;
+    }
+}
+
+.design {
+    i {
+    color: #F18B6D;
+    background-color: transparent;
+    text-align: center;
+    }
+    h3 {
+        color: #F18B6D;
+    }
+}
+
+.development {
+    i {
+    color: #FFBD67;
+    background-color: transparent;
+    text-align: center;
+    }
+    h3 {
+        color: #FFBD67;
+    }
+}
+
+.seo {
+    i {
+    color: #6A4D8A;
+    background-color: transparent;
+    text-align: center;
+    }
+    h3 {
+        color: #6A4D8A;
+    }
+}
+
+.News {
+    .btn {
+        border-radius: 2px; 
+    }
+    i {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+
+.album {
+    .btn {
+        border-radius: 2px; 
+    }
+    i {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.counter {
+    background-image: url(../images/bkg-counter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h3 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .project {
+        border-right: 1px;
+        border-right-style: solid;
+        border-right-color: white;
+    }
+
+    .coffes {
+        border-left: 1px;
+        border-left-style: solid;
+        border-left-color: white;
+    }
+}
+
+input, textarea {
+    width: 100%;
+}
+
+form .btn {
+    float: right;
+    width: 150px;
+}
+
+.address, .support {
+    border-left: 1px;
+    border-left-style: solid;
+}
