@@ -20,7 +20,7 @@ return $monster;
             $fightResults[] = 'Le monstre attaque ! Il enlève ' .$damage. ' au héros ' .$hero->getHeroName();
 
             if($hero->getHeroHP() <= 0) {
-                $fightResults[] = 'Perdu !';
+                $fightResults[] = '<h2 class="perdu">Perdu !</h2>';
                 $hero->setHeroHP(0);
                 break;
             }
@@ -29,7 +29,7 @@ return $monster;
             $fightResults[] = 'Le héros attaque ! Il enlève ' .$damage. ' au monstre ' .$monster->getMonsterName();
 
             if($monster->getMonsterHP() <= 0) {
-                $fightResults[] = 'Gagné !';
+                $fightResults[] = '<h2 class="gagne">Gagné !</h2>';
                 $monster->setMonsterHP(0);
                 break;
             }

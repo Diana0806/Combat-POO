@@ -11850,144 +11850,32 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar {
-  background-color: transparent;
-}
-
-.header {
-  background-image: url(../images/bkg-hero-header.jpg);
-  margin-top: -60px;
-  padding: 12rem;
-}
-.header .btn {
-  border-radius: unset;
-}
-
-span.dot {
-  color: yellow;
-  vertical-align: bottom;
-}
-
-.testimonials {
-  /*border-color: violet;*/
-  background-image: url(../images/bkg-testimonial.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.carousel-caption {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-.carousel-caption p {
-  width: 800px;
-  background-color: #6A4D8A;
-  margin: 2rem auto;
-  padding: 2rem;
-}
-
-.carousel-indicators {
-  position: relative;
-}
-
-.carousel-indicators button {
-  width: 15px !important;
-  height: 15px !important;
-  border-radius: 50%;
-}
-
-.design i {
-  color: #F18B6D;
-  background-color: transparent;
-  text-align: center;
-}
-.design h3, .design .h3 {
-  color: #F18B6D;
-}
-
-.development i {
-  color: #FFBD67;
-  background-color: transparent;
-  text-align: center;
-}
-.development h3, .development .h3 {
-  color: #FFBD67;
-}
-
-.seo i {
-  color: #6A4D8A;
-  background-color: transparent;
-  text-align: center;
-}
-.seo h3, .seo .h3 {
-  color: #6A4D8A;
-}
-
-.News .btn {
-  border-radius: 2px;
-}
-.News i {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.album .btn {
-  border-radius: 2px;
-}
-.album i {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.card {
-  border: none;
-  border-radius: 0;
-}
-
-.counter {
-  background-image: url(../images/bkg-counter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.counter h3, .counter .h3 {
-  font-size: 60px;
-}
-.counter p {
-  font-size: 18px;
-  font-weight: bold;
-}
-.counter .project {
-  border-right: 1px;
-  border-right-style: solid;
-  border-right-color: white;
-}
-.counter .coffes {
-  border-left: 1px;
-  border-left-style: solid;
-  border-left-color: white;
-}
-
-input, textarea {
-  width: 100%;
-}
-
-form .btn {
-  float: right;
-  width: 150px;
-}
-
-.address, .support {
-  border-left: 1px;
-  border-left-style: solid;
-}
 
 /*# sourceMappingURL=main.css.map */
+
+.form-signin {
+
+  .btn-primary {
+    font-size: 18px;
+
+  &:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+}
+
+  .name {
+    height: 40px;
+  }
+}
+
+.heroes {
+
+
+.btn-info:hover{
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+
+  
+}
