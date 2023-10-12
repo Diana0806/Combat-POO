@@ -3,7 +3,7 @@ require_once('./config/db.php');
 require_once('./config/autoload.php');
 
 
-$manager = new heroesManager($db);
+$manager = new HeroesManager($db);
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'])) {
